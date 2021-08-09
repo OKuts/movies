@@ -1,0 +1,12 @@
+/* Core */
+@import 'sanitize.css';
+
+/* Instruments */
+@import './css-vars.scss';
+@import './sass-vars.scss';
+@import './reset.scss';
+@import './classes.scss';
+
+body {
+    background-color: #f0f2f5;
+}

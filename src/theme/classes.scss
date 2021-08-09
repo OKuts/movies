@@ -1,0 +1,24 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.styles_header {
+    display: flex;
+    margin-bottom: 24px;
+
+    .styles_logo {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin-right: 25px;
+        font-family: Caveat,sans-serif;
+        font-size: 28px;
+        color: #fff;
+        -webkit-user-select: none;
+        user-select: none;
+        transform: skewY(170deg);
+        overflow: hidden;
+    }
+}
